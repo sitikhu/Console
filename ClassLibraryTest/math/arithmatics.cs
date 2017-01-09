@@ -9,12 +9,14 @@ namespace ClassLibraryTest.math
     class arithmatics
     {
         public int add(int a, int b)
-        { return a + b;
+        {
+            return a + b;
         }
 
         public int add(int[] a)
-        { int sum = 0;
-            for (int i = 0; i <a.Length; i++)
+        {
+            int sum = 0;
+            for (int i = 0; i < a.Length; i++)
             {
                 sum = +[i];
 
@@ -24,19 +26,19 @@ namespace ClassLibraryTest.math
         }
     }
 
-public class Rectangle
+    public class Rectangle
     {
         public int length
         { get; set; }
         public int breadth
-        { get; set}
-        
+        { get; set; }
+
 
         public int perimeter
         { get { return length + breadth; } }
-    public int area
+        public int area
         { get { return length * breadth; } }
-        
+
 
     }
 

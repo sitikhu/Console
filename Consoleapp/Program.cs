@@ -11,6 +11,8 @@ namespace Consoleapp
         static void Main(string[] args)
         {
             ClassLibraryTest.math.Rectangle r1=new ClassLibraryTest.math.Rectangle()
+                Console.WriteLine($"Area : {r1.area}\n Perimeter : {r1.perimeter} ")
+               
         }
     }
 }
